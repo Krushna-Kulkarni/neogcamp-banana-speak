@@ -1,8 +1,6 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
-var outputDiv = document.querySelector("#output");
-
-// https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json
+var outputDiv = document.querySelector("#txt-output");
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
